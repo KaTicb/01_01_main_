@@ -1,10 +1,15 @@
 #include <iostream>
 #include <string>
 
-int main(int argc, char** argv, char** env){
+int main(int /*argc*/, char ** /*argv*/, char ** /*env*/) {
 
-    std::cout<<"argc"<<std::endl<<std::endl;
-    std::cout<<argc<<std::endl<<std::endl;
+//    std::cout << "argc" << std::endl << std::endl;
+//    std::cout << argc << std::endl << std::endl;
+
+    std::string hello_str("Hello, user");
+
+    std::cout << hello_str << std::endl;
+
 
 //    std::cout<<"argv"<<std::endl<<std::endl;
 //    std::string string_argv;
@@ -18,32 +23,8 @@ int main(int argc, char** argv, char** env){
 //        string_env += env[i];
 //    }
 
-  //  std::cout<<string_env<<std::endl<<std::endl;
-    return 0;
+    //  std::cout<<string_env<<std::endl<<std::endl;
+    return std::cout.good() ? EXIT_SUCCESS : EXIT_FAILURE;
 
 }
-
-//#include <sys/syscall.h>
-//#include <unistd.h>
-//
-//int print(const char* message, int size)
-//{
-//    int exit_code = 0;
-//    syscall(SYS_write, 1, message, size);
-//    return exit_code;
-//}
-//
-//int main(int /*argc*/, char* /*argv*/ [])
-//{
-//    return print("hello world\n", 12);
-//}
-//
-//extern "C"
-//{
-//void _start()
-//{
-//    int result_code = main(0, nullptr);
-//    syscall(SYS_exit, result_code);
-//}
-//}
 
