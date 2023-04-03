@@ -3,5 +3,5 @@ project(01_01_main_)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(01_01_main_
-        main.cpp)
+add_executable(01_01_main_ main.cpp)
+
