@@ -1,0 +1,3 @@
+/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/CMakeFiles/01_01_main_.dir
+/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
