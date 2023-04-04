@@ -92,6 +92,7 @@ CMakeFiles/01_01_main_.dir/main.cpp.s: cmake_force
 
 01_01_main_: CMakeFiles/01_01_main_.dir/main.cpp.o
 01_01_main_: CMakeFiles/01_01_main_.dir/build.make
+01_01_main_: liblib1.a
 01_01_main_: CMakeFiles/01_01_main_.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 01_01_main_"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/01_01_main_.dir/link.txt --verbose=$(VERBOSE)

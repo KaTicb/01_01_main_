@@ -59,6 +59,90 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lib1">
+				<Option output="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/liblib1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib1"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib1/fast">
+				<Option output="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/liblib1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib2">
+				<Option output="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/liblib2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib2/fast">
+				<Option output="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/liblib2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/../../../../include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/kiruha/HomeWork/01/01-01(main)/cmake-build-debug"/>
 				<Option type="4"/>
@@ -80,6 +164,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kiruha/HomeWork/01/01-01(main)/lib.cpp">
+			<Option target="lib1"/>
+			<Option target="lib2"/>
+		</Unit>
+		<Unit filename="/home/kiruha/HomeWork/01/01-01(main)/lib.h">
+			<Option target="01_01_main_"/>
+		</Unit>
 		<Unit filename="/home/kiruha/HomeWork/01/01-01(main)/main.cpp">
 			<Option target="01_01_main_"/>
 		</Unit>
